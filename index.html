@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mim Akter — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- Animated background orbs -->
+    <div class="bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="orb orb-4"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <span class="nav-logo">M</span>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-grid">
+        <div class="hero-text reveal">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Mim Akter</h1>
+          <p class="hero-role"><span id="typed"></span><span class="cursor">|</span></p>
+          <p class="hero-sub">Software Engineering Undergraduate at Daffodil International University</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap reveal reveal-delay-1">
+          <div class="photo-glow"></div>
+          <div class="photo-frame">
+            <img src="public/WhatsApp_Image_2026-07-24_at_11.33.52_AM.jpeg" alt="Min Akter"/>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll down">
+        <div class="scroll-arrow"></div>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="section-inner">
+        <div class="section-label reveal">About Me</div>
+        <h2 class="section-title reveal">Who I Am</h2>
+        <div class="glass-card about-card reveal">
+          <div class="about-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <p class="about-text">
+            I am a motivated and passionate Software Engineering student at Daffodil International University,
+            dedicated to building elegant, efficient software solutions. I thrive on learning new technologies,
+            solving complex problems, and turning ideas into reality through clean, purposeful code.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">5.00</span>
+              <span class="stat-label">SSC GPA</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">4.80</span>
+              <span class="stat-label">HSC GPA</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">6+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <div class="section-inner">
+        <div class="section-label reveal">My Journey</div>
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <div class="timeline-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div class="timeline-body">
+                <span class="timeline-badge">Undergraduate</span>
+                <h3>B.Sc. in Software Engineering</h3>
+                <p>Daffodil International University</p>
+                <p class="timeline-detail">Currently Enrolled</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item reveal reveal-delay-1">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <div class="timeline-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              </div>
+              <div class="timeline-body">
+                <span class="timeline-badge">HSC</span>
+                <h3>Higher Secondary Certificate</h3>
+                <p>Science Group</p>
+                <p class="timeline-detail">GPA: <strong>4.80 / 5.00</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item reveal reveal-delay-2">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <div class="timeline-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              </div>
+              <div class="timeline-body">
+                <span class="timeline-badge">SSC</span>
+                <h3>Secondary School Certificate</h3>
+                <p>Science Group</p>
+                <p class="timeline-detail">GPA: <strong>5.00 / 5.00</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="section-inner">
+        <div class="section-label reveal">What I Know</div>
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skills-grid">
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon skill-c">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M15 9.354a6 6 0 1 0 0 5.292"/></svg>
+            </div>
+            <span class="skill-name">C</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+          <div class="glass-card skill-card reveal reveal-delay-1">
+            <div class="skill-icon skill-java">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 2c0 4 4 6 4 10s-4 6-4 10"/><path d="M16 2c0 4-4 6-4 10s4 6 4 10"/><path d="M5 20h14"/></svg>
+            </div>
+            <span class="skill-name">Java</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="glass-card skill-card reveal reveal-delay-2">
+            <div class="skill-icon skill-html">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <span class="skill-name">HTML / CSS</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="glass-card skill-card reveal reveal-delay-1">
+            <div class="skill-icon skill-sql">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <span class="skill-name">SQL</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+          <div class="glass-card skill-card reveal reveal-delay-2">
+            <div class="skill-icon skill-uml">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="5" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="8" y="16" width="8" height="5" rx="1"/><path d="M6.5 8v4h11V8M12 12v4"/></svg>
+            </div>
+            <span class="skill-name">UML</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+          </div>
+          <div class="glass-card skill-card reveal reveal-delay-1">
+            <div class="skill-icon skill-git">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M6 9v6M15.7 5.3l-9.4 13.4"/></svg>
+            </div>
+            <span class="skill-name">Problem Solving</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="section-inner">
+        <div class="section-label reveal">What I've Built</div>
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="projects-grid">
+          <div class="glass-card project-card reveal">
+            <div class="project-glow project-glow-1"></div>
+            <div class="project-top">
+              <div class="project-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="View project">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Campus Nuva</h3>
+            <p class="project-desc">A comprehensive campus management platform designed to streamline university operations, student interactions, and academic workflows.</p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">SQL</span>
+              <span class="tag">UML</span>
+            </div>
+          </div>
+
+          <div class="glass-card project-card reveal reveal-delay-1">
+            <div class="project-glow project-glow-2"></div>
+            <div class="project-top">
+              <div class="project-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="View project">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Student Management System</h3>
+            <p class="project-desc">A full-featured system for managing student records, attendance, grades, and administrative tasks with an intuitive interface.</p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">SQL</span>
+              <span class="tag">HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="section-inner">
+        <div class="section-label reveal">Let's Talk</div>
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-wrap reveal">
+          <div class="glass-card contact-card">
+            <p class="contact-intro">
+              I'm always open to discussing new opportunities, interesting projects,
+              or just having a great conversation about tech. Feel free to reach out!
+            </p>
+            <a href="mailto:mim242-35@diu.edu.bd" class="contact-email">
+              <div class="contact-email-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <span>mim242-35@diu.edu.bd</span>
+            </a>
+            <div class="contact-meta">
+              <span>Daffodil International University</span>
+              <span class="dot">·</span>
+              <span>Bangladesh</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-inner">
+        <p>Designed & Built by <strong>Mim Akter</strong></p>
+        <p class="footer-copy">© 2025 All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
